@@ -25,6 +25,24 @@ If you have the Go toolchain installed, you can also simply install the CLI by r
 go install github.com/oncilla/old-man-yells-at/cmd/old-man-yells-at@latest
 ```
 
+## Build from source
+
+To build the CLI from source, clone the repository and run the following command in the root directory:
+
+Yells at stuff!
+
+```
+$ go build ./cmd/old-man-yells-at
+$ ./old-man-yells-at <target-image>
+```
+
+Smiles at stuff!
+
+```
+$ go build ./cmd/old-man-smiles-at
+$ ./old-man-smiles-at <target-image>
+```
+
 ## Usage
 
 ```
